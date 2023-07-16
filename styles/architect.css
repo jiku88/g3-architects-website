@@ -7,7 +7,14 @@
 font-family: 'Work Sans', sans-serif;
 }
 .btn-primary{
-    
+    background: #FF900E;
+    border-radius: 8px;
+    padding: 20px 25px;
+    color: #FFF;
+    font-size: 1.25rem;
+    cursor: pointer;
+    border: 0;
+
 }
 
 /* header styles */
@@ -56,5 +63,30 @@ nav li a{
 }
 .banner-description{
     color: #727272;
+    
+}
+.banner img{
+    margin-top: 20px;
+    width: 100%;
+}
+/* responsive media queries */
+/* mobile devices */
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }   
+    }
+/* medium devaices */
+@media screen and (min-width:576px) and (max-width:992px) {
+    nav{
+        flex-direction: column;
+    }
+    header{
+        padding: 50px;
+    }
+
     
 }
